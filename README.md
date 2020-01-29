@@ -49,3 +49,6 @@ Dbt_utls package has also been imported in dbt config for use with date function
 ## Further Analysis Columns
 User_Transformed.sql contains the required columns for analysis. Logic for every column has been written in the code and all but 1 (Average number of comments per month) has been tested as the datediff function is not compatible with PostgreSql in dbt, which hindered my logic for this column. Column-names should self-sufficient in the code to understand which part has been referred in that column.
 The amazing lineage functionality for dbt has been used via ref function to make sure that the data is only transformed when it is present in the landing/base models.
+
+Note: If you want to see how dbt works, go to this URL and ask me for credentials if prompted.
+https://cloud.getdbt.com/#/accounts/2717/projects/2741/develop/
