@@ -52,3 +52,6 @@ The amazing lineage functionality for dbt has been used via ref function to make
 
 Note: If you want to see how dbt works, go to this URL and ask me for credentials if prompted.
 https://cloud.getdbt.com/#/accounts/2717/projects/2741/develop/
+
+Postgres DB is configured on this URL
+https://api.elephantsql.com/console/3e8dbfe6-565e-4277-b64c-21d3315d7c5a/details
