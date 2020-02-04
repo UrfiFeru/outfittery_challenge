@@ -5,12 +5,12 @@ Spark and Airflow are used for building Extraction and Loading of data into the 
 DBT (Data Build Tool) is used for transformation. This is the tool I found which empowers developers to integrate Data Ops philosophy in their development environment. The benefits of DBT are also mentioned below and also answers the bonus question of Nakul 😊
 ## Alternative to Airflow (Bonus Question):
 Once all the sources have been mapped into the landing layer for the warehouse, all the queries should be mapped onto DBT (Data Build Tool). This tool is built for providing developers including engineers and analysts the facility to use Data Ops paradigm in their development for the data warehouse. It essentially provides the developers to transform data once it is already loaded into data warehouse.
-Some of the major functionalities which it provides which I believe makes it better than Airflow for managing SQL transformations are:
-•	Provide ability to define data lineage by providing dependencies on table.
-•	Clean code management as the general rule of defining a single transformation via a single select statement in code makes the code atomic, better to maintain and is optimized for big data environment.
-•	Ability to provide description within code develops a meta repository and makes data discovery for analysts much easier.
-•	It provides version control facility, making it easier to oversee development over time and makes it easy to fix bugs.
-•	It also provides a kind of CI/CD functionality by providing separation of dev and prod environments.
+Some of the major functionalities which it provides which I believe makes it better than Airflow for managing SQL transformations are:\n
+•	Provide ability to define data lineage by providing dependencies on table.\n
+•	Clean code management as the general rule of defining a single transformation via a single select statement in code makes the code atomic, better to maintain and is optimized for big data environment.\n
+•	Ability to provide description within code develops a meta repository and makes data discovery for analysts much easier.\n
+•	It provides version control facility, making it easier to oversee development over time and makes it easy to fix bugs.\n
+•	It also provides a kind of CI/CD functionality by providing separation of dev and prod environments.\n
 For airflow alternatives pertaining to extraction and load of data, I could not find any in general. There definitely are some tools which interact with certain data sources better than every other tool, however when writing custom code, I find it best to use Apache Airflow. It really depends on where most of the company’s data sources lie on and which is the data warehousing platform the company is using.
 ## Extraction and Load
 I unzipped the files and used each file as a source to my data warehouse.
